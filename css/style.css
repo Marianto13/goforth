@@ -504,6 +504,11 @@ margin: 0px auto;
     color: #333;
     border-radius: 10%;
 }
+.messageto h2{
+  font-size: 30px;
+  color: #090a0d;
+  background-color: #62636c;
+}
 .testimonialarea-bubble {
 	display: Inline-block;
     width: 70%;
@@ -1462,6 +1467,7 @@ p.comment-form-email, p.comment-form-author, p.comment-form-url {
 					color:#fff;
 			 position:relative;
 		}
+   
     .display-wrapper {
       margin: 10%;
       height:100%;
@@ -1602,7 +1608,7 @@ section.catalog .catalog-sections {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  text-align: left;
+  text-align: center;
 }
 section.catalog .catalog-sections .catalog-section {
   position: relative;
@@ -1612,21 +1618,25 @@ section.catalog .catalog-sections .catalog-section {
   height: 19.375rem;
   border-bottom: 1px solid #e4e4e4;
   margin-bottom: 2rem;
+  
 }
 section.catalog .catalog-sections .catalog-section picture {
   position: absolute;
   bottom: 0;
   right: 0;
   height: 100%;
+  
 }
 section.catalog .catalog-sections .catalog-section picture img {
   width: auto;
+  
   height: 100%;
 }
 section.catalog .catalog-sections .catalog-section > ul {
   position: relative;
   padding-top: 35px;
   padding-left: 1rem;
+  padding: 10%;
 }
 section.catalog .catalog-sections .catalog-section > ul a {
   color: #666;
